@@ -12,12 +12,12 @@
   }
 
 body { 
-    background-color:#F5F5F5 ;}
+    background-color:ghostwhite;}
 
   ul,ol,li{
     margin: 0;
     padding: 0;
-    
+    bottom:20px;
     list-style: none;
   }
   a{
