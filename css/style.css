@@ -1,8 +1,6 @@
 /* clearfix */
 .clearfix::after {
-    content: '';
-    display: block;
-    clear: both;
+
     
   }
 
@@ -10,7 +8,7 @@
   /* 헤더 */
   .header-background {
     width: 100%;
-      height: 160px;
+      height: 165px;
     background-color: #D7F0FA;
     z-index: 999;
     border-bottom: solid 2px #5AA7DE;
@@ -18,19 +16,21 @@
      
   }
   .header {
-    margin-left: 250px ;
+    margin-left: 200px ;
+  
     width: 1000px;
   }
   .header-heading {
     float: left;
-    padding: 24px 0;
+    padding: 30px 0;
     font-size: 10px;
   }
   .header-heading a {
     position: relative;
     display: block;
+   
     width: 75px;
-    margin-top: 10px;
+    margin-top: 30px;
 
     line-height: 75px;
     text-align: center;
@@ -41,20 +41,23 @@
     left: 0;
     width: 100%;
     height: 80%;
-    background: url(../img/logo.png) no-repeat;
+  
   }
   .utility {
     float: left;
-    min-width: 500px;
-    margin-left: 220px;
+
+    min-width: 520px;
+    margin-left: 200px;
   }
 /* 채팅 메뉴 조절 */
   .utility-list {
     float: left;
-      padding-left: 100px;
+padding-left: 135px;
   }
   .utility-list li {
     position: relative;
+margin-top: 120px;
+
     float: left;
   }
   .utility-list li::after {
@@ -71,16 +74,16 @@
   }
   .utility-list li a {
     display: block;
-    padding: 10px 10px;
+    padding: 12px 12px 15px;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 1.9rem;
-    padding-right: 30px;
+    font-size: 1.7rem;
+    padding-right: 20px;
     color: #555;
       
   }
   .utility-list li a:hover,
   .utility-list li a:focus {
-padding-left: 15px;
+padding-left: 10px;
       color: white;
     background-color: rgb(199,228,255);
   }
@@ -135,7 +138,9 @@ select {
 
   
 #mainlogo { 
-margin-top: 10px;
+float: left;
+padding-right: 30px;
+    margin-top: 15px;
   width: 180px; 
   height: 120px;}
 
